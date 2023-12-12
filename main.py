@@ -41,7 +41,7 @@ def query_index_gui():
 
 root = tk.Tk()
 root.title("Langchain Text")
-background_image = Image.open("l.JPG")
+background_image = Image.open("photo/main.JPG")
 background_photo = ImageTk.PhotoImage(background_image)
 background_label = tk.Label(root, image=background_photo)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
