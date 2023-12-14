@@ -1,4 +1,3 @@
-
 import os
 import tkinter as tk
 from tkinter import scrolledtext
@@ -28,7 +27,9 @@ def insert_new_data_gui():
     else:
         result_label.config(text="Please enter some text to insert.")
 
+
 def query_index_gui():
+    """ Retrieving from GUI Information and Quering"""
     query = text_entry.get("1.0", tk.END).strip()
     if query:
         results = query_index(query)
